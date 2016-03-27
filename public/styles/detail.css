@@ -1,0 +1,47 @@
+.matchup {
+	font-size: 22px;
+	font-weight: 100;
+	text-align: center;
+}
+
+.away_team, .home_team {
+	font-size: 48px;
+	position: relative;
+}
+
+.home_team, .home_team .score, .homeGoal {
+	text-align: right;
+}
+
+.away_team, .away_team .score, .awayGoal {
+	text-align: left;
+}
+
+.team_logo img {
+	width: 300px;
+	opacity: 0.2;
+	position: absolute;
+	z-index: -1;
+	top: -50px;
+}
+
+.away_team .team_logo {
+	float: left;
+}
+
+.home_team .team_logo img {
+	right: 0px;
+}
+
+.home_team .team_logo {
+	/*float: right;*/
+}
+
+.accordion-navigation a {
+	text-align: center;
+}
+
+.accordion-content h4 {
+	font-size: 30px;
+	font-weight: 300;
+}

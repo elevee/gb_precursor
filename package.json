@@ -1,0 +1,23 @@
+{
+  "name": "gif_beukeboom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "*",
+    "express": "latest",
+    "gifshot": "latest",
+    "node-jsdom": "latest",
+    "phantomjs-prebuilt": "^2.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,22 @@
+.day {
+	text-align: center;
+	font-size: 28px;
+}
+
+table {
+	/*width: 50%;*/
+	margin: 0 auto;
+}
+
+table {
+	font-size: 36px;
+}
+
+table tr:hover {
+	background-color: gray !important; 
+	cursor: pointer;
+}
+
+.team_home {
+	text-align: right;
+}
